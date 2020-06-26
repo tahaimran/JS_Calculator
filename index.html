@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="text-center">JS CALCULATOR</h1>
+
+
+    <div class="cal">
+        <div>
+            <input id="result" class="result" type="text">
+        </div>
+        <div class="btng">
+            <button type="button" onclick="getNumber('%')" class="btn btn-outline-info">%</button>
+            <button type="button" onclick="getNumber('/2')" class="btn btn-outline-info">|/</button>
+            <button type="button" onclick="getNumber('1/')" class="btn btn-outline-info">1/x</button>
+
+        </div>
+        <div class="btng">
+            <button type="button" onclick="resultclear()" class="btn btn-outline-info">CE</button>
+            <button type="button" onclick="resultclear()" class="btn btn-outline-info">C</button>
+            <button type="button" onclick="getNumber('/')" class="btn btn-outline-info">/</button>
+
+        </div>
+        <div>
+            <button type="button" onclick="getNumber('7')" class="btn btn-outline-info">7</button>
+            <button type="button" onclick="getNumber('8')" class="btn btn-outline-info">8</button>
+            <button type="button" onclick="getNumber('9')" class="btn btn-outline-info">9</button>
+            <button type="button" onclick="getNumber('*')" class="btn btn-outline-info">*</button>
+
+        </div>
+        <div>
+            <button type="button" onclick="getNumber('4')" class="btn btn-outline-info">4</button>
+            <button type="button" onclick="getNumber('5')" class="btn btn-outline-info">5</button>
+            <button type="button" onclick="getNumber('6')" class="btn btn-outline-info">6</button>
+            <button type="button" onclick="getNumber('-')" class="btn btn-outline-info">-</button>
+
+        </div>
+        <div>
+            <button type="button" onclick="getNumber('1')" class="btn btn-outline-info">1</button>
+            <button type="button" onclick="getNumber('2')" class="btn btn-outline-info">2</button>
+            <button type="button" onclick="getNumber('3')" class="btn btn-outline-info">3</button>
+            <button type="button" onclick="getNumber('+')" class="btn btn-outline-info">+</button>
+
+        </div>
+        <div>
+            <button type="button" onclick="getNumber('+-')" class="btn btn-outline-info">+-</button>
+            <button type="button" onclick="getNumber('0')" class="btn btn-outline-info">0</button>
+            <button type="button" onclick="getNumber('.')" class="btn btn-outline-info">.</button>
+            <button type="button" id="giveresult" onclick="giveresult();" class="btn btn-outline-info">=</button>
+
+        </div>
+
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>

@@ -1,0 +1,41 @@
+.cal {
+    border: 2px solid rgb(107, 228, 38);
+    margin: 5% auto;
+    width: 520px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h1 {
+    color: aqua;
+    padding-top: 80px;
+}
+
+.result {
+    width: 98%;
+    height: 60px;
+    margin: 5px;
+    padding: 8px;
+    background-color: rgb(62, 207, 207);
+    color: rgb(243, 233, 233);
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+
+.btn {
+    margin: 5px;
+    width: 110px;
+}
+
+.btng {
+    margin-left: 10%;
+}
+
+.btng button {
+    width: 120px;
+}
+
+#giveresult {
+    background-color: rgb(49, 223, 223);
+    border: none;
+}
